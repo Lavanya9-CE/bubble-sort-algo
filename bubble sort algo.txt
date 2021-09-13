@@ -1,0 +1,23 @@
+Here we are passing the array with values and making use of two loops i and j to compare the numbers with each other 
+and arrange them in ascending order.
+
+
+
+
+algo_bubblesort(int arr[])
+{
+arr[]=[5,2,12,4,7,3]
+int i,j,temp;
+for(i=0;i<5;i++)
+{
+  for (j=0;j<5-i-1;j++)
+   {
+     if (arr[i]>arr[j])
+	{
+	  temp=arr[i];	 
+	  arr[i]=arr[j];
+	  arr[j]=temp;
+	}
+   }
+}
+}
